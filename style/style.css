@@ -11,12 +11,27 @@ nav {
   background-color: #8B0000;
 }
 
+.login {
+  text-align: right;
+}
+
+.login button {
+  background: #8B0000;
+  border-radius: 30px;
+  padding: 7px;
+  cursor: pointer;
+  color: #fff;
+  border: 8px;
+  font-size: 16px;
+  position: relative;
+}
+
 img {
   width: 85px;
-  display: flex;
-  margin : auto;
+  display: block;
+  margin: auto;
   height: auto;
-
+  left: 450px;
 }
 
 li {
@@ -127,14 +142,120 @@ li>a:hover::after {
 
 }
 
-.acao button {
+.acao1 button {
   background: #dd5959;
-  border-radius: 6px;
+  border-radius: 8px;
   padding: 15px;
   cursor: pointer;
   color: #fff;
-  border: 5px;
+  border: 8px;
   font-size: 16px;
+  position: relative;
+  top: 0%;
+  left: 470%;
+  transform: translate(-70%, -70%);
+}
+
+.acao1 p {
   text-align: center;
-  width: 200px;
+  padding-bottom: 20px;
+  ;
+}
+
+.contatos {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.contatos h3 {
+  background-color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.contatos ul {
+  background-color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.teste h1 {
+  text-align: center;
+}
+
+fieldset {
+  border: 0;
+  float: inline-end;
+  margin-right: 1em;
+}
+
+input {
+  padding: 0.2em;
+  border-radius: 5px;
+  border: 1px solid #8B0000;
+  display: inline;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  display: block;
+  padding-right: 1em;
+}
+
+.teste p {
+  text-align: center;
+}
+
+.acao3 button {
+  background: #dd5959;
+  border-radius: 8px;
+  padding: 15px;
+  cursor: pointer;
+  color: #fff;
+  border: 8px;
+  font-size: 16px;
+  position: relative;
+  top: 50px;
+  left: 100%;
+  transform: translate(-70%, -70%);
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 2);
+}
+
+.acao3 button:hover {
+  background: #8B0000;
+  box-shadow: 2px 2px 2px black;
+}
+
+.lg img {
+  padding-top: 80px;
+  margin: auto;
+}
+
+
+.esq a {
+  padding-top: 10px;
+  color: black;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 5px;
+}
+.esq a:hover{
+  text-shadow: 2px 2px 2px black;
+}
+.loginform{
+  text-align: center;
+}
+.buttomlogin button{
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #8B0000;
+  color: white;
+  border: 0px;
+  cursor: pointer;
+}
+.buttomlogin button:hover{
+  background: #8B0000;
+  box-shadow: 2px 2px 2px black;
 }
