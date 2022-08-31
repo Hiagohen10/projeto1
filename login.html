@@ -17,21 +17,28 @@
 
 <body>
   <script src="app/app.js"></script>
-  <img src="images/logo.png" alt="images">
-  <nav>
-    <ul>
-      <li class="ativo"><a href="index.html">Home</a></li>
-      <li><a href="quemsomos.html">Quem Somos?</a></li>
-      <li><a href="produtos.html">Produtos</a></li>
-      <li><a href="teste gratis.html">Teste Gratis</a></li>
-      <li><a href="contatos.html">Contatos</a></li>
-    </ul>
-    <div class="login">
-      <a href="teste gratis.html"><button>Criar Conta</button></a>
-      <a href="login.html"><button>Login</button></a>
-    </div>
-  </nav>
 
+  <div class="lg">
+    <img src="images/logo.png" alt="logo leafour">
+  </div>
+  <form action="Login">
+    <fieldset class="Loginform">
+      <div>
+        <label for="Email">Email:</label>
+        <input type="Email" name="Email" id="Email"required>
+      </div>
+      <div>
+        <label for="Senha">Senha:</label>
+        <input type="password" name="Senha" id="Senha"required>
+      </div>
+      <div class="esq">
+      <a href="index.html">Esqueceu a senha?</a>
+    </div>
+    </fieldset>
+    <div class="buttomlogin">
+      <a href="index.html"><button>Entrar</button></a>
+    </div>
+  </form>
 </body>
 
 </html>
