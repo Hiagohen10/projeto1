@@ -10,8 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto:ital,wght@1,300&display=swap"
     rel="stylesheet">
-  <title>Leafour CRM - O Melhor Para o Seu C
-    liente</title>
+  <title>Login</title>
   <link rel="shortcut icon" href="images/logo.png">
 </head>
 
@@ -20,9 +19,10 @@
 
   <div class="lg">
     <img src="images/logo.png" alt="logo leafour">
+    <P>Leafour.com</P>
   </div>
   <form action="Login">
-    <fieldset class="Loginform">
+    <fieldset class="Logi">
       <div>
         <label for="Email">Email:</label>
         <input type="Email" name="Email" id="Email" required>
@@ -39,7 +39,24 @@
       <a href="index.html"><button>Entrar</button></a>
     </div>
   </form>
-  
+  <script>
+    var Email = document.getElementById('Email');
+    var Senha = document.getElementById('Senha');
+
+Email.addEventListener('focus',()=>{
+    email.style.bordercolor = "#00FF00";
+});
+Email.addEventListener('blur',()=>{
+    email.style.bordercolor = "#00FF00";
+});
+Senha.addEventListener('focus',()=>{
+    Senha.style.bordercolor = "#5a0505";
+});
+Senha.addEventListener('blur',()=>{
+    Senha.style.bordercolor = "#5a0505";
+});
+  </script>
+
 </body>
 
 </html>
