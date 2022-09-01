@@ -26,7 +26,7 @@ nav {
   position: relative;
 }
 
-img {
+.img-nav img {
   width: 85px;
   display: block;
   margin: auto;
@@ -85,7 +85,7 @@ li>a:after {
   width: 70%;
   height: 4px;
   transform: scaleX(0);
-  background-color: #36dd27;
+  background-color:#dd5959;
   transition: all .2s ease;
   opacity: 0.6;
 }
@@ -95,7 +95,6 @@ li>a:hover::after {
   transform: scaleX(1);
 }
 
-/*960PX BREAKPOINT*/
 @media (min-width:60em) {
   li {
     width: auto;
@@ -143,7 +142,7 @@ li>a:hover::after {
 }
 
 .acao1 button {
-  background: #dd5959;
+  background: #8B0000;
   border-radius: 8px;
   padding: 15px;
   cursor: pointer;
@@ -154,6 +153,9 @@ li>a:hover::after {
   top: 0%;
   left: 470%;
   transform: translate(-70%, -70%);
+}
+.acao1 button:hover{
+  background-color: #5a0505;
 }
 
 .acao1 p {
@@ -185,7 +187,7 @@ li>a:hover::after {
 
 fieldset {
   border: 0;
-  float: inline-end;
+  float:inline-end;
   margin-right: 1em;
 }
 
@@ -201,6 +203,7 @@ form {
   text-align: center;
   display: block;
   padding-right: 1em;
+  
 }
 
 .teste p {
@@ -208,7 +211,7 @@ form {
 }
 
 .acao3 button {
-  background: #dd5959;
+  background: #8B0000;
   border-radius: 8px;
   padding: 15px;
   cursor: pointer;
@@ -217,22 +220,31 @@ form {
   font-size: 16px;
   position: relative;
   top: 50px;
-  left: 100%;
+  left: 70%;
   transform: translate(-70%, -70%);
   box-shadow: 2px 2px 2px rgb(0, 0, 0, 2);
 }
 
 .acao3 button:hover {
-  background: #8B0000;
-  box-shadow: 2px 2px 2px black;
+  background-color: #5a0505;
 }
-
 .lg img {
-  padding-top: 80px;
+  width: 85px;
+  display: block;
   margin: auto;
+  height: auto;
+  left: 450px;
+  margin-top: 7%;
+  background-color: #8B0000;
+  border-radius: 40px;
 }
-
-
+.lg p{
+  text-align: center;
+  color: black;
+}
+.logi fieldset{
+  background-color: #8B0000;
+}
 .esq a {
   padding-top: 10px;
   color: black;
@@ -244,9 +256,7 @@ form {
 .esq a:hover{
   text-shadow: 2px 2px 2px black;
 }
-.loginform{
-  text-align: center;
-}
+
 .buttomlogin button{
   padding: 10px;
   margin-bottom: 20px;
@@ -254,8 +264,123 @@ form {
   color: white;
   border: 0px;
   cursor: pointer;
+  text-align: center;
 }
 .buttomlogin button:hover{
-  background: #8B0000;
-  box-shadow: 2px 2px 2px black;
+  background: #5a0505;
+}
+.index img{
+  margin: auto;
+  width: auto;
+  right: 50%;
+  display: block;
+}
+footer{
+  height: 100%;
+  background-color: #8B0000;
+  position: relative;
+}
+.fale-conosco{
+  text-decoration: none;
+}
+.contatos{
+  margin-left: 45px;
+}
+.quem-somos h5{
+  text-align: center;
+  color:rgb(233, 25, 25);
+  font-size: 35px;
+  
+}
+.footer.footer .container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.footer.footer .container > div{
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 3rem 0.9rem;
+}
+.quem-somos p{
+  color: black;
+  font-size: 15px;
+  margin: 80px;
+}
+.quem-somos img{
+  width: 655px;
+  display: block;
+  margin: auto;
+  height: 100%;
+  left: 450px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.footer .sobre-nos{
+  margin-left: 30px;
+}
+.footer img{
+  width: 85px;
+  display: block;
+  margin: auto;
+  height: 100%;
+  left: 450px;
+}
+.footer p{
+  color: #fff;
+  text-align: center;
+  padding-bottom: 2em;
+}
+.meio img{
+  width: 655px;
+  display: block;
+  margin: auto;
+  height: 100%;
+  left: 450px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.meio h5{
+  text-align: center;
+  color:rgb(233, 25, 25);
+  font-size: 35px;
+}
+.meio p{
+  color: black;
+  font-size: 15px;
+  border-bottom: 50px;
+  margin: 80px;
+  text-align: center;
+}
+.nome label{
+  height: 50%;
+  left: 100px;
+  margin-top: 10px;
+  display: block;
+}
+.sobre label{
+  height: 50%;
+  left: 100px;
+  margin-top: 10px;
+  display: block;
+}
+.vendas h1{
+  text-align: center;
+  color:rgb(233, 25, 25);
+  font-size: 35px;
+}
+.vendas p{
+  color: black;
+  font-size: 15px;
+  border-bottom: 50px;
+  margin: 80px;
+  text-align: center;
+}
+.vendas img{
+  width: 655px;
+  display: block;
+  margin: auto;
+  height: 100%;
+  left: 450px;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
